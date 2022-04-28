@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta lang="es">
+	<meta name="keywords" content="description">
+	<meta name="description" content="description">
+	<link href="style.css" rel="stylesheet">
+	<meta name="author" content="Paola">
+	<link rel="icon" type="icon.png" href="favicon.png">
+	 <script src="video.js"> </script>
+	<title>Mau y ricky</title>
+</head>
+<body>
+	<!--javaScript-->
+	  <script src="./videos.js"></script>
+	  <!--aqui termina el javaScript-->
+	<header>
+		<div class="menu">
+			<span style="color:white;font-size:24px;padding-top: 10px;display: block;width:250px;display: inline-block;font-style: italic;">Mau y Ricky</span>
+			<nav>
+				<ul>
+					<li> <a href="file:///C:/Users/CEX/Downloads/musica%20-%20cambios/index.html#">Inicio <a/></li>
+					<li><a href="file:///C:/Users/CEX/Downloads/musica%20-%20cambios/galeria.html#">Galeria</a></li>
+					<li><a href="file:///C:/Users/CEX/Downloads/musica%20-%20cambios/discografia.html#">Discografía</a></li>
+					<li><a href="file:///C:/Users/CEX/Downloads/musica%20-%20cambios/contacto.html">Contacto</a></li>
+				</ul>	
+			</nav>
+		</div>
+	</header>
+	<div class="contenedor">
+		<div class="hero">
+			<div class="contenido">
+				<div class="opacidad">
+					<h1>Galeria de Mau y Ricky</h1>
+					<a href="#">Descubre</a>
+				</div>
+			</div>
+		</div>
+		<section class="galeria">
+			<center><a href="portafolio1.jpg"><img src="portafolio1.jpg" width="400"height="300" style="object-fit: cover;"></a>
+			<a href="portafolio2.jpg"><img src="portafolio2.jpg" width="400"height="300" style="object-fit: cover;"></a>
+			<a href="portafolio3.jpg"><img src="portafolio3.jpg"width="400"height="300" style="object-fit: cover;"></a>
+			<a href="portafolio4.jpg"><img src="portafolio4.jpg" width="400"height="300" style="object-fit: cover;"></a>
+			<a href="portafolio5.jpg"><img src="portafolio5.jpg" width="400"height="300" style="object-fit: cover;"></a>
+			<a href="portafolio6.jpg"><img src="portafolio6.jpg" width="400"height="300" style="object-fit: cover;"></a>
+			<a href="img2.jpg"><img src="img2.jpg" width="400"height="300" style="object-fit: cover;"></a>
+			<a href="img4.jpg"><img src="img4.jpg" width="400"height="300" style="object-fit: cover;"></a>
+			<a href="img3.jpg"><img src="img3.jpg" width="400"height="300" style="object-fit: cover;"></a></center>
+		</section>
+		<center><h3 class="h3">ULTIMOS LANZAMIENTOS</h3></center>
+		<div class="div">
+			<h4 class="h4">Mau y Ricky dan la bienvenida al 2022</h4>
+		<a href="https://www.youtube.com/watch?v=tReH4vKESac" class="boton"> ver en Youtube</a>
+		</div>
+		<section>
+			<video id="slider" autoplay muted loop>
+				<source src="video1.mp4" type="">
+			</video>
+			<ul class="navigation">
+				<li onclick="videoUrl('video1.mp4')"><img src="slider1.jpg"></li>
+				<li onclick="videoUrl('video2.mp4')"><img src="slider2.jpg"></li>
+				<li onclick="videoUrl('video3.mp4')"><img src="slider3.jpg" width="120" height="120"></li>
+				<li onclick="videoUrl('video4.mp4')"><img src="slider4.jpg"></li>
+			</ul>
+		</section>
+		<script type="text/javascript">
+			function videoUrl(hmmmmm){
+				document.getElementById("slider").src=hmmmmm;
+			}
+		</script>
+
+		<!-- <section class="galeria2">
+				<br>
+				<video src="yt1s.com - Mau y Ricky Eladio Carrion  No Puede Ser with Eladio Carrion.mp4" controls="audioplay loop muted" poster="imagen.jpeg" width="400px" height="300"> Elemento de video no soportado por su explorador
+				</video>
+				<br></br>
+				<video src="yt1s.com - Mau y Ricky  Para Olvidarte Official Video.mp4" controls="audioplay loop muted" poster="imagen.jpeg" width="400px" height="300"> Elemento de video no soportado por su explorador
+				</video>
+				<br></br>
+				<video src="yt1s.com - Mau y Ricky  QUÉ DIRÍAS Official Video.mp4" controls="audioplay loop muted" poster="imagen.jpeg" width="400px" height="300"> Elemento de video no soportado por su explorador
+				</video>
+				<br></br>
+				<video src="yt1s.com - Mau y Ricky Sebastián Yatra Mora  3 de La Mañana Official Video.mp4" controls="audioplay loop muted" poster="imagen.jpeg" width="400px" height="300"> Elemento de video no soportado por su explorador
+				</video>
+		</section>-->
+		<footer class="footer" style="text-align:center">
+					<br></br>
+					&copy;CopyRight-Todos los derechos reservados 2022
+					<br></br>
+					<a href="instagram.png"> <img src="instagram.png" width="30"height="30"></a>
+					<a href="facebook.png"> <img src="facebook.png" width="30"height="30"></a>
+					<a href="twitter.png"> <img src="twitter.png" width="30"height="30"></a>
+		</footer>
+	</div>
+	<!--Aqui empieza el carrousel-->
+
+</body>
+</html>
